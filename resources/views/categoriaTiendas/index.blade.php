@@ -1,5 +1,4 @@
-@extends('adminlte::page')
-@section('content')
+
 <div>
     @foreach ($categoriasTiendas as $categoriaTienda)
         <td>
@@ -7,4 +6,3 @@
         </td>
     @endforeach
 </div>
-@stop

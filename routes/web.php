@@ -18,6 +18,7 @@ Route::get('/', function () {
     return view('home');
 });
 
-// Route::resource('categorias', CategoriaTiendaController::class);
+Route::resource('categorias', CategoriaTiendaController::class);
 Auth::routes();
+
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

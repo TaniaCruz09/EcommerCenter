@@ -13,7 +13,7 @@
 
         @endif
         <br>
-        <a href="{{ url('cargos/create') }}" class="btn btn-success"> Nuevo Cargo </a>
+        <a href="{{ url('cargos/create') }}" class="btn btn-success">Nueva Categoria</a>
         <br>
         <br>
         <table class="table table-dark">

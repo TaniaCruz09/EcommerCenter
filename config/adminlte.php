@@ -327,7 +327,7 @@ return [
         [
             'text'        => 'Categories',
             'url'         => 'categorias',
-            'icon'        => 'far fa-fw fa-file',
+            'icon'        => 'far fa-fw fa-',
             'label_color' => 'success',
         ],
         ['header' => 'account_settings'],

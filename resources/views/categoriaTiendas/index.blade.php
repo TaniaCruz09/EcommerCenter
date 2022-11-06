@@ -13,7 +13,7 @@
 
         @endif
         <br>
-        <a href="{{ url('cargos/create') }}" class="btn btn-success">Nueva Categoria</a>
+        <a href="{{ url('categorias/create') }}" class="btn btn-success">Nueva Categoria</a>
         <br>
         <br>
         <table class="table table-dark">
@@ -30,9 +30,9 @@
 
                     <tr>
                         <td>{{$categoriaTienda->categoria}}</td>
-                        <td><a href="{{ url('') }}" class="btn btn-info">
+                        <td><a href="{{ url('/categorias/' . $categoriaTienda->id . '/edit') }}" class="btn btn-info">
                                 Editar </a>|
-                            <form action="{{ url('') }}" method="post" class="d-inline">
+                            <form action="{{ url('/categorias/' . $categoriaTienda->id) }}" method="post" class="d-inline">
                                 @csrf
                                 {{ method_field('DELETE') }}
                                 <input type="submit" onclick="return confirm('Estas seguro de eliminar este registro?')"

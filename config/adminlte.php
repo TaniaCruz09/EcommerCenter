@@ -321,7 +321,13 @@ return [
             'text'        => 'pages',
             'url'         => 'admin/pages',
             'icon'        => 'far fa-fw fa-file',
-            'label'       => 4,
+            
+            'label_color' => 'success',
+        ],
+        [
+            'text'        => 'Categories',
+            'url'         => 'categorias',
+            'icon'        => 'far fa-fw fa-file',
             'label_color' => 'success',
         ],
         ['header' => 'account_settings'],

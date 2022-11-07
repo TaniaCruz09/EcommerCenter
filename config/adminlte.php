@@ -325,9 +325,15 @@ return [
             'label_color' => 'success',
         ],
         [
-            'text'        => 'Categories',
+            'text'        => 'Categoria',
             'url'         => 'categorias',
-            'icon'        => 'far fa-fw fa-',
+            'icon'        => '',
+            'label_color' => 'success',
+        ],
+        [
+            'text'        => 'Categoria Productos',
+            'url'         => 'categorias-productos',
+            'icon'        => '',
             'label_color' => 'success',
         ],
         ['header' => 'account_settings'],

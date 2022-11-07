@@ -40,7 +40,7 @@ class CategoriaTiendaController extends Controller
     {
         $datos = request()->except('_token');
         CategoriaTienda::insert($datos);
-        return redirect('categorias/')->with('mensaje', 'Grado agregado con exito');
+        return redirect('categorias/')->with('mensaje', 'categoria agregada con exito');
     }
 
     /**
@@ -69,7 +69,7 @@ class CategoriaTiendaController extends Controller
     /**
      * Update the specified resource in storage.
      *
-          * @param Illuminate\Http\Request $request
+     * @param Illuminate\Http\Request $request
      * @param  \App\Models\CategoriaTienda  $categoriaTienda
      * @return \Illuminate\Http\Response
      */
@@ -84,7 +84,7 @@ class CategoriaTiendaController extends Controller
         return view('categoriaTiendas.edit', compact('datos'));
     }
 
-    /**
+    /** 
      * Remove the specified resource from storage.
      *
      * @param  \App\Models\CategoriaTienda  $categoriaTienda

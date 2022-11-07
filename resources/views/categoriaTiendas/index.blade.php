@@ -20,7 +20,7 @@
             <thead class="thead-light">
                 <tr>
                     <th>Categorias</th>
-                    <th></th>
+                    <th>Acciones</th>
                 </tr>
             </thead>
 
@@ -30,7 +30,7 @@
 
                     <tr>
                         <td>{{$categoriaTienda->categoria}}</td>
-                        <td><a href="{{ url('/categorias/' . $categoriaTienda->id . '/edit') }}" class="btn btn-info">
+                        <td><a href="{{ url('/categorias/' . $categoriaTienda->id . '/edit') }}"class="btn btn-info">
                                 Editar </a>|
                             <form action="{{ url('/categorias/' . $categoriaTienda->id) }}" method="post" class="d-inline">
                                 @csrf

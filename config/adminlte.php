@@ -321,21 +321,36 @@ return [
             'text'        => 'pages',
             'url'         => 'admin/pages',
             'icon'        => 'far fa-fw fa-file',
-            
             'label_color' => 'success',
         ],
         [
-            'text'        => 'Categoria',
-            'url'         => 'categorias',
-            'icon'        => '',
+            'text'        => 'Usuarios',
+            'url'         => 'user',
+            'icon'        => 'far fa-fw fa-user',
             'label_color' => 'success',
         ],
+
         [
-            'text'        => 'Categoria Productos',
-            'url'         => 'categorias-productos',
-            'icon'        => '',
-            'label_color' => 'success',
+            'text'    => 'Categorias',
+            'icon'    => 'fas fa-fw fa-share',
+            'submenu' => [
+                [
+                    'text'        => 'Categoria Tienda',
+                    'url'         => 'categorias',
+                    'icon'        => '',
+                    'label_color' => 'success',
+                ],
+                [
+                    'text'        => 'Categoria Productos',
+                    'url'         => 'categorias-productos',
+                    'icon'        => '',
+                    'label_color' => 'success',
+                ],
+            ]
+        
         ],
+ 
+
         ['header' => 'account_settings'],
         [
             'text' => 'profile',

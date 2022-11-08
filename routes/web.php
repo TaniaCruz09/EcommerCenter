@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CategoriaTiendaController;
 use App\Http\Controllers\CategoriaProductoController;
+use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,6 +22,7 @@ Route::get('/', function () {
 
 Route::resource('categorias', CategoriaTiendaController::class);
 Route::resource('categorias-productos', CategoriaProductoController::class);
+Route::resource('user', UserController::class);
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

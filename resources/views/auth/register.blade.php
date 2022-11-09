@@ -74,4 +74,6 @@
         </div>
     </div>
 </div>
+@include('components.footer')
+
 @endsection

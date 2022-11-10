@@ -15,9 +15,13 @@ use App\Http\Controllers\UserController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route:: view ('/', 'login' )-> name('login');
+
+Route:: view ('/', 'Tienda.index' )-> name('index');
 
 Route::get('/', function () {
-    return view('home');
+
+    return view('homeTania');
 });
 
 Route::resource('categorias', CategoriaTiendaController::class);
@@ -25,4 +29,5 @@ Route::resource('categorias-productos', CategoriaProductoController::class);
 Route::resource('user', UserController::class);
 Auth::routes();
 
+Route::get('homeTani');
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

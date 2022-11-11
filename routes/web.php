@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CategoriaTiendaController;
 use App\Http\Controllers\CategoriaProductoController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\StoreDetailController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -31,3 +33,5 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('7tienda', [App\Http\Controllers\TiendaController::class, 'index'])->name('tienda');
 Route::get('/aboutus', [App\Http\Controllers\AboutUsController::class, 'index'])->name('aboutus');
+
+Route::resource('storeDetail', StoreDetailController::class);

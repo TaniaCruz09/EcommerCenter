@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+}
+
+.container{
+
+    display: flex;
+}
+
+.containerB{
+
+    height: 100%;
+    flex: 5;
+}
+.containerStore{
+    /* background-color: blanchedalmond; */
+    display: flex;
+    border:2px solid #000000;
+    margin: 15px 8px;
+}
+.store{
+    /* background-color: aqua; */
+    flex: 3;
+    padding: 10px;
+}
+.contenedorLogoYnombreDeTienda{
+    display: flex;
+    margin: -8px;
+}
+
+.logo{
+    margin-left:20px;
+    width: 20%;
+    height: 45px;
+    margin-right: 10%;
+}
+
+.direcionTienda{
+    display: flex;
+    margin: -10px;
+}
+.horario{
+    margin: 3px;
+    color: green;
+}
+
+.marcadorDeDireccion{
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+}
+
+.btn-tienda{
+    position: relative;
+    left: 70%;
+    bottom: 10px;
+    width: 80px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #b18f07;
+    
+}
+
+.ubication{
+    background-color: gray;
+    height: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+.masVendido{
+    /* background-color: green; */
+    flex: 2;
+   
+}
+
+.imgLoMasVendido{
+    display: flex;
+}
+.img-producto{
+    width: 42%;
+    height: 130px;
+    margin: 10px;
+}
+.publicidad{
+    /* background-color: red; */
+    flex: 1;
+}
+
+.pie-pagina{
+    width: 100%;
+    background-color: #F0841D;
+}
+
+.pie-pagina .grupo1{
+    width: 100%;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 100px;
+    
+}
+
+.pie-pagina .grupo1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo1 .box figure img{
+    width: 100%;
+    position: relative;
+    left: -15%;
+}
+
+.pie-pagina .grupo1 .box h2{
+    font-family: 'Open Sans';
+    color: #ffffff;
+    padding-top: 15px;
+    margin-bottom: 15px;
+    
+}
+.pie-pagina .grupo1 .box h3{
+    font-family: "Open San";
+    
+}
+.pie-pagina .grupo1 .box .frase{
+    font-family: "Open San";
+    color: #ffffff;
+    font-size: 20px;
+    text-align: left;
+}
+
+.pie-pagina .grupo1 .box .datos{
+    margin-bottom: 10px;
+    font-family: "Open Sans";
+    display: grid;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo1 .red-social .loguitos img{
+    display: inline-block;
+    text-decoration: none;
+    width: 80px;
+    height: 50px;
+    margin: 15px 0px;
+    transition: all 300ms ease;
+
+}
+
+.pie-pagina .grupo1 .red-social .loguitos img:hover{
+    background-color:rgb(139, 132, 117);
+}

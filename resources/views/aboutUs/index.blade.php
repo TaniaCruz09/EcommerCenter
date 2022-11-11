@@ -1,3 +1,4 @@
+@include('components.header')
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -50,3 +51,4 @@
           @include('components.footer')
 </body>
 </html>
+@include('components.footer')

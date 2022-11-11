@@ -41,7 +41,7 @@
           <b> Tiendas</b>
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#   ">Ropa</a></li>
+            <li><a class="dropdown-item" href="{{route ('tienda')}}">Ropa</a></li>
             <li><a class="dropdown-item" href="#">Zapaterias</a></li>
             <li><a class="dropdown-item" href="#">Farmacia</a></li>
             <li><a class="dropdown-item" href="#">Pasteleria</a></li>

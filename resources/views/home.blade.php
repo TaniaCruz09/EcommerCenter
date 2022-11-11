@@ -12,17 +12,13 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-    <header>
-        <h1>...........Aqui ira el header..........</h1>
-    </header>
-
 <div class="container">
     <div class="row">
         <div class="col-xs-12 col-md-8" style="margin-top: 50px">
             <h1 style="font-weight: 300px">Estas listo para formar parte de</h1>
             <p style="font-size: 50px; margin:10px 0; color: darkorange; font-weight:300px" class="big-text">ecommercenter</p>
             <p>compra o crea tu tienda ya!!!</p>
-            <a class="btn btn-first" href="/login" style="margin: 30px 10px; width:150px; padding:10px; border-radius:10px; background-color: darkblue; color:#fff; text-decoration:none">Acceder</a>
+            <a class="btn btn-first" href="{{route('login')}}" style="margin: 30px 10px; width:150px; padding:10px; border-radius:10px; background-color: darkblue; color:#fff; text-decoration:none">Acceder</a>
             <a class="btn btn-second" href="#" style="margin: 30px 10px; width:150px; padding:10px; border-radius:10px; background-color: darkorange; color:#fff; text-decoration:none">Crear Tienda</a>
         </div>
         <div class="col-xs-6 col-md-3">

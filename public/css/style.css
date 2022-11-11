@@ -1,0 +1,86 @@
+.container{
+    background-color: pink;
+    margin-top: 5%;
+    margin-left: 15%;
+    width: 70%;
+    height: 50%;
+    border: 1%;
+   
+    
+}
+.lineadecorativa{
+    width: 100%;
+    height: 50px;
+    background-color: orange;
+}
+/* .subcontenedor{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin-top:3%;
+    width: 20%;
+    height: 480px; 
+} */
+.containerdelogo{
+   display: flex;
+    background-color: red;
+    margin-bottom: 3px;
+    width:80%;
+    height: 9%; 
+}
+.textoagregarlogo{
+    margin-top: 2px;
+    font-family: 'open sans';
+    font-size: 20px;
+}
+/* .datosaingresar{
+    margin-top:3px;
+    background-color: blueviolet;
+    width: 100%;
+    height: 380px;  
+
+} */
+.input{
+    border-color: black;
+    width: 55%;
+    height: 8%; 
+    font-size: 20px; 
+}
+.texto{
+    margin-top: 20px;
+    margin-bottom: 60px;
+    font-family: 'open sans';
+    font-size: 20px;
+}
+.inputDescripcion{
+    display: flex;
+    flex-direction: column;
+    border-color: black;
+    width: 55%;
+    height: 15%;  
+}
+.containerdeinputs{
+    justify-content: space-around;
+    background-color: brown;
+    margin-top: 68px;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 380px;
+    
+}
+.Boton{
+    margin-left: 80%;
+    border-width: 1px;
+    border-color: orange;
+    border-radius: 5px;
+    width: 25%;
+    height: 55px;
+    color: black;
+    font-size: large;
+
+    
+}
+.Boton:hover {
+    background-color: orange;
+}  

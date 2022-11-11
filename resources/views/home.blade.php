@@ -39,8 +39,10 @@
                         <h4>holi 1</h4>
                     </div>
                     <div class="col-xs-6 col-md-4">
-                        <img src="./asset/zapatos.png" alt="">
-                        <h4>fdshds</h4>
+                        <a href="/storeDetail" style="text-decoration: none; color:black">
+                            <img src="./asset/zapatos.png" alt="">
+                            <h4>fdshds</h4>
+                        </a>
                     </div>
                     <div class="col-xs-6 col-md-4">
                         <img src="./asset/ropa.png" alt="">

@@ -18,8 +18,6 @@ use App\Http\Controllers\UserController;
 Route:: view ('/', 'login' )-> name('login');
 Route:: view ('/', 'register' )-> name('register');
 
-Route:: view ('/', 'Tienda.index' )-> name('index');
-
 Route::get('/', function () {
 
     return view('homeTania');
@@ -30,5 +28,6 @@ Route::resource('categorias-productos', CategoriaProductoController::class);
 Route::resource('user', UserController::class);
 Auth::routes();
 
-Route::get('homeTani');
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('7tienda', [App\Http\Controllers\TiendaController::class, 'index'])->name('tienda');
+Route::get('/aboutus', [App\Http\Controllers\AboutUsController::class, 'index'])->name('aboutus');

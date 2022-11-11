@@ -25,7 +25,6 @@
             </thead>
 
             <tbody>
-
                 @foreach ($categoriasTiendas as $categoriaTienda)
 
                     <tr>
@@ -39,7 +38,6 @@
                                     class="btn btn-danger" value="eliminar">
                             </form>
                         </td>
-
                     </tr>
                 @endforeach
             </tbody>

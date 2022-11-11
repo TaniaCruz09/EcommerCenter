@@ -33,6 +33,9 @@
         <li class="nav-item">
           <a class="nav-link me-3" href="{{ route('login')}}"><b>Acceder</b></a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link me-3" href="{{ route('register')}}"><b>Registarse</b></a>
+        </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
           <b> Tiendas</b>

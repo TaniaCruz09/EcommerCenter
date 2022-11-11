@@ -16,6 +16,7 @@ use App\Http\Controllers\UserController;
 |
 */
 Route:: view ('/', 'login' )-> name('login');
+Route:: view ('/', 'register' )-> name('register');
 
 Route:: view ('/', 'Tienda.index' )-> name('index');
 

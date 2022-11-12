@@ -6,7 +6,6 @@ use App\Http\Controllers\CategoriaProductoController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\StoreDetailController;
 
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -30,8 +29,8 @@ Route::resource('categorias-productos', CategoriaProductoController::class);
 Route::resource('user', UserController::class);
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('7tienda', [App\Http\Controllers\TiendaController::class, 'index'])->name('tienda');
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'i ndex'])->name('home');
+Route::get('/tienda', [App\Http\Controllers\TiendaController::class, 'index'])->name('tienda');
 Route::get('/aboutus', [App\Http\Controllers\AboutUsController::class, 'index'])->name('aboutus');
 
 Route::resource('storeDetail', StoreDetailController::class);

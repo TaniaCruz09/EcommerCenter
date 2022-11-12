@@ -6,6 +6,7 @@ use App\Http\Controllers\CategoriaProductoController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\StoreDetailController;
 use App\Http\Controllers\CrearTiendaController;
+use App\Http\Controllers\CrearTiendaParteIIController;
 
 /*
 |--------------------------------------------------------------------------
@@ -35,3 +36,4 @@ Route::get('/aboutus', [App\Http\Controllers\AboutUsController::class, 'index'])
 
 Route::resource('storeDetail', StoreDetailController::class);
 Route::get('/crearTienda', [App\Http\Controllers\CrearTiendaController::class, 'index'])->name('crearTienda');
+Route::get('/crearTiendaParteII', [App\Http\Controllers\CrearTiendaParteIIController::class, 'index'])->name('crearTiendaParteII');

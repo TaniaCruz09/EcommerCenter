@@ -1,3 +1,4 @@
+
     <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -17,7 +18,7 @@
                         <div class="row mb-3">
                             <label for="name" class="col-md-4 text-md-end">{{ __('Nombre de la tienda') }}</label>
                             <div class="col-md-6">
-                                <input id="name" type="name" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
+                                <input id="name" type="name" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required 
 
                                 @error('name')
                                     <span class="invalid-feedback" role="alert">

@@ -96,15 +96,15 @@
                         </p>
                         <div class="d-flex justify-content-center">
                           <button class="btn btn-primary">
-                            <a class="btn-tienda" href="#">Entrar</a>
+                            <a class="btn-tienda" href="{{route('tienda')}}">Entrar</a>
                           </button>
                         </div>
                       </div>
                       <div class="col-3 col-md-3">
-                        <h3>Lo mas vendido</h3>
+                        <h4>Lo mas vendido</h4>
                         <div class="imgLoMasVendido">
-                          <img class="img-producto" src="image/Imagen 4.png" alt="" />
-                          <img class="img-producto" src="image/Imagen 5.png" alt="" />
+                          <img class="img-producto" src="./assets/vestido.png" alt="" />
+                          <img class="img-producto" src="./assets/carteraRosada.jpg" alt="" />
                         </div>
                       </div>
                     </div>
@@ -115,7 +115,7 @@
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  <img src="image/image-removebg-preview.png" alt="" class="logo" />
+                  <img src="image/image-removebg-preview.png" alt="" class="./assets/logogato.jpg" />
                   <h6>Tienda el gato</h6>
                 </button>
               </h2>
@@ -135,7 +135,7 @@
                         <div class="direcionTienda">
                           <img
                             class="marcadorDeDireccion"
-                            src="image/marcador-de-posicion.png"
+                            src="./asset/posicion.png"
                             alt=""
                           />
                           <p>Frente al parque central, Nueva Guinea</p>
@@ -165,13 +165,13 @@
         </div>
         <div class="col-3 col-md-3">
           <h3 class="d-flex justify-content-center">publicidad</h3>
-            <img class="img-publicidad d-flex justify-content-center" src="./asset/publicidad1.jpg" alt="" />
-            <img class="img-publicidad d-flex justify-content-center" src="./asset/publicidad2.png" alt="" />
-            <img class="img-publicidad d-flex justify-content-center" src="./asset/publicidad3.png" alt="" />
+            <img class="img-publicidad " src="./asset/publicidad1.jpg" alt="" />
+            <img class="img-publicidad " src="./asset/publicidad2.png" alt="" />
+            <img class="img-publicidad " src="./asset/publicidad3.png" alt="" />
         </div>
       </div>
     </div>
-    @include('layouts.footer')
+    @include('components.footer')
   </body>
 </html>
 

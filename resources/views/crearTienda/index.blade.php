@@ -10,6 +10,22 @@
 </head>
 <body>
     @include('components.header')
+    <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xs-4 col-md-4">
+                    <form class="d-flex">
+                        <label for="logo">Agrega logo de tu tienda</label>
+                        <input type="image" id="image"src="./asset/imagenInput.png" style="width: 10%; height:10%; margin-left:10px">
+                    </form>
+                </div>
+                <div class="col-xs-4 col-md-4">
+                    <form class="d-flex">
+                        <label for="banner">Agrega banner de tu tienda</label>
+                        <input type="image" id="image" src="./asset/imagenInput.png" style="width: 10%; height:10%; margin-left:10px" > 
+                    </form>
+                </div> 
+            </div>
+    </div>
         <div class="container">
             <div class="row">
                 <form method="POST" action="{{ route('crearTienda') }}" style="margin-top: 40px">

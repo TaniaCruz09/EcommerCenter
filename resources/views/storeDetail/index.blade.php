@@ -115,7 +115,7 @@
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  <img src="image/image-removebg-preview.png" alt="" class="./assets/logogato.jpg" />
+                  <img src="./asset/logogato.jpg" alt="" class="logo" />
                   <h6>Tienda el gato</h6>
                 </button>
               </h2>
@@ -152,8 +152,8 @@
                       <div class="col-3 col-md-3">
                         <h3>Lo mas vendido</h3>
                         <div class="imgLoMasVendido">
-                          <img class="img-producto" src="./asset/publicidad1.png" alt="" />
-                          <img class="img-producto" src="./asset/publicidad2.png" alt="" />
+                          <img class="img-producto" src="./asset/imagen 7.png" alt="" />
+                          <img class="img-producto" src="./asset/imagen 8.png" alt="" />
                         </div>
                       </div>
                     </div>

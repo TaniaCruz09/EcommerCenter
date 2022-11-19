@@ -55,8 +55,11 @@
                     </div>
                     <div class="row mb-0">
                         <div class="col-md-8 offset-md-4">
-                            <button type="submit" class="btn btn-primary">
+                            {{-- <button type="submit" class="btn btn-primary">
                                 {{ __('Crear') }}
+                            </button> --}}
+                            <button class="btn btn-primary">
+                                <a href="\storeDetail" style="text-decoration: none; color:#fff">Entrar</a>
                             </button>
                         </div>
                     </div>

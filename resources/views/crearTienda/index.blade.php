@@ -87,7 +87,7 @@
                                     {{ __('Siguiente') }}
                                 </button> --}}
                                 <button class="btn btn-primary">
-                                    <a href="{{route('crearTiendaParteII')}}" style="text-decoration: none; color:#fff">Entrar</a>
+                                    <a href="{{route('crearTiendaParteII')}}" style="text-decoration: none; color:#fff">Siguiente</a>
                                 </button>
                             </div>
                         </div>

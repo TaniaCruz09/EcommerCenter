@@ -2,6 +2,7 @@
 
 @section('title', 'Dashboard')
 
+
 @section('content_header')
     <h1>EcommerCenter</h1>
 @stop

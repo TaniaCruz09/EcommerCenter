@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Tienda;
+use App\Models\CategoriaTienda;
 use App\Http\Requests\StoreTiendaRequest;
 use App\Http\Requests\UpdateTiendaRequest;
 
@@ -15,8 +16,9 @@ class TiendaController extends Controller
      */
     public function index()
     {
-        return view('Tienda/index');
+        //
     }
+ 
 
     /**
      * Show the form for creating a new resource.
@@ -25,9 +27,14 @@ class TiendaController extends Controller
      */
     public function create()
     {
-        //
+        $categorias = CategoriaTienda::all();
+        return view('crearTienda/index',compact('categorias'));
     }
 
+    public function createTwo()
+    {
+        return view('crearTiendaParteII/index');
+    }
     /**
      * Store a newly created resource in storage.
      *
@@ -47,7 +54,7 @@ class TiendaController extends Controller
      */
     public function show(Tienda $tienda)
     {
-        //
+        return view('Tienda/index');
     }
 
     /**

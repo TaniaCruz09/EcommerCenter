@@ -47,7 +47,7 @@
                         <div class="col-md-6">
                             <input id="categoria_tiendas_id" type="categoria_tiendas_id" class="form-control @error('categoria_tiendas_id') is-invalid @enderror" name="categoria_tiendas_id" required autocomplete="current-categoria_tiendas_id">
 
-                            @error('categoria_tiendas_id')email
+                            @error('categoria_tiendas_id')
                                 <span class="invalid-feedback" role="alert">
                                     <strong>{{ $message }}</strong>
                                 </span>
@@ -61,7 +61,7 @@
                             <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" required autocomplete="current-email">
 
                             @error('email')
-                                <span class="invalid-feedback" role="alert">
+                                <span  role="alert">
                                     <strong>{{ $message }}</strong>
                                 </span>
                             @enderror
@@ -86,7 +86,7 @@
                                 {{ __('Siguiente') }}
                             </button> --}}
                             <button class="btn btn-primary">
-                                <a href="{{route('crearTiendaParteII')}}" style="text-decoration: none; color:#fff">Entrar</a>
+                                <a href="{{route('crearTiendaParteII')}}" style="text-decoration: none; color:#fff">Siguiente</a>
                             </button>
                         </div>
                     </div>

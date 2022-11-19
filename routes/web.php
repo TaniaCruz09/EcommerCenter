@@ -31,9 +31,11 @@ Route::resource('user', UserController::class);
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/tienda', [App\Http\Controllers\TiendaController::class, 'index'])->name('tienda');
+Route::get('/tienda', [App\Http\Controllers\TiendaController::class, 'show'])->name('tienda');
+
+//rutas crear tiendas
+Route::get('/crearTienda', [App\Http\Controllers\TiendaController::class, 'create'])->name('crearTienda');
+Route::get('/crearTiendaParteII', [App\Http\Controllers\TiendaController::class, 'createTwo'])->name('crearTiendaParteII');
 Route::get('/aboutus', [App\Http\Controllers\AboutUsController::class, 'index'])->name('aboutus');
 
 Route::resource('storeDetail', StoreDetailController::class);
-Route::get('/crearTienda', [App\Http\Controllers\CrearTiendaController::class, 'index'])->name('crearTienda');
-Route::get('/crearTiendaParteII', [App\Http\Controllers\CrearTiendaParteIIController::class, 'index'])->name('crearTiendaParteII');

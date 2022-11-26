@@ -30,7 +30,7 @@ Route::resource('categorias-productos', CategoriaProductoController::class);
 Route::resource('user', UserController::class);
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/tienda', [App\Http\Controllers\TiendaController::class, 'show'])->name('tienda');
+Route::get('/tienda', [App\Http\Controllers\TiendaController::class, 'index'])->name('tienda');
 
 //rutas crear tiendas
 Route::get('/crearTienda', [App\Http\Controllers\TiendaController::class, 'create'])->name('crearTienda');

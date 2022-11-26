@@ -42,20 +42,23 @@
                         </div>
                     </div>
                     <div class="row mb-3">
-                        <label for="categoria_tiendas_id" class="col-md-4 col-form-label text-md-end">{{ __('Categoria de tu tienda') }}</label>
-
+                        <label for="categorias" class="col-md-4 col-form-label text-md-end">Categorias:</label>
+                        <br>
                         <div class="col-md-6">
-                            <input id="categoria_tiendas_id" type="categoria_tiendas_id" class="form-control @error('categoria_tiendas_id') is-invalid @enderror" name="categoria_tiendas_id" required autocomplete="current-categoria_tiendas_id">
-
-                            @error('categoria_tiendas_id')
-                                <span class="invalid-feedback" role="alert">
-                                    <strong>{{ $message }}</strong>
-                                </span>
-                            @enderror
-                        </div>
+                        <select class="form-control @error('categoria_tiendas_id') is-invalid @enderror"
+                        name='categoria_tiendas_id'
+                        id ='categorias_tiendas'
+                        >
+                        <option value="" selected disabled>--seleccione--</option>
+                        
+                        @foreach ($categorias as $categoriaTienda)
+                        <option value="{{$categoriaTienda->id}}">{{$categoriaTienda->categoria}}</option>
+                        @endforeach 
+                    </select>
+                        </div>  
                     </div>
                     <div class="row mb-3">
-                        <label for="email" class="col-md-4 col-form-label text-md-end">{{ __('Correo electronico de tinda') }}</label>
+                        <label for="email" class="col-md-4 col-form-label text-md-end">{{ __('Correo electronico de tienda') }}</label>
 
                         <div class="col-md-6">
                             <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" required autocomplete="current-email">
@@ -86,7 +89,7 @@
                                 {{ __('Siguiente') }}
                             </button> --}}
                             <button class="btn btn-primary">
-                                <a href="{{route('crearTiendaParteII')}}" style="text-decoration: none; color:#fff">Siguiente</a>
+                                <a href="{{route('crearTiendaParteII')}}" style="text-decoration: none; color:#fff">Entrar</a>
                             </button>
                         </div>
                     </div>

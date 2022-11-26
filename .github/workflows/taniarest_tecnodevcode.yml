@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'tecnodevcode'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_758C5E15B99F4985947DFE746B075C92 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D831494EF6814C2EAFCC004237F18A4B }}
           package: .

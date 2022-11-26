@@ -8,3 +8,13 @@
     height: 150px;
     margin: 10px;
 }
+
+.imageBack{
+    background-image: url("../asset/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tipografia{
+    font-family:sans-serif
+}

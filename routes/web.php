@@ -5,7 +5,6 @@ use App\Http\Controllers\CategoriaTiendaController;
 use App\Http\Controllers\CategoriaProductoController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\StoreDetailController;
-use App\Http\Controllers\CrearTiendaController;
 use App\Http\Controllers\CrearTiendaParteIIController;
 
 /*
@@ -18,8 +17,9 @@ use App\Http\Controllers\CrearTiendaParteIIController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route:: view ('/', 'login' )-> name('login');
-Route:: view ('/', 'register' )-> name('register');
+
+Route::view('/', 'login')->name('login');
+Route::view('/', 'register')->name('register');
 
 Route::get('/', function () {
     return view('home');
@@ -28,7 +28,6 @@ Route::get('/', function () {
 Route::resource('categorias', CategoriaTiendaController::class);
 Route::resource('categorias-productos', CategoriaProductoController::class);
 Route::resource('user', UserController::class);
-Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/tienda', [App\Http\Controllers\TiendaController::class, 'show'])->name('tienda');
@@ -36,6 +35,7 @@ Route::get('/tienda', [App\Http\Controllers\TiendaController::class, 'show'])->n
 //rutas crear tiendas
 Route::get('/crearTienda', [App\Http\Controllers\TiendaController::class, 'create'])->name('crearTienda');
 Route::get('/crearTiendaParteII', [App\Http\Controllers\TiendaController::class, 'createTwo'])->name('crearTiendaParteII');
+
 Route::get('/aboutus', [App\Http\Controllers\AboutUsController::class, 'index'])->name('aboutus');
 
 Route::resource('storeDetail', StoreDetailController::class);

@@ -51,7 +51,9 @@
    </div>
    <div class="col text-center " style="margin: 20px;">
    <button type="button" class="me-5 btn btn-primary btn-lg " >Contactar</button>
-   <button type="button" class=" btn btn-warning btn-lg" style="width: 140px;">Salir</button>
+   <button class="me-5 btn btn-primary btn-lg">
+    <a href="{{route('home')}}" style="text-decoration: none; color:#fff">Salir</a>
+</button>
    </div>
 </body>
 </html>

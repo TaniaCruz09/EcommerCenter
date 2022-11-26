@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="{{ asset('../css/storeDeatil.css') }}"/>
   </head>
   <body>
+    @include('components.header')
     <div class="container-fluid">
       <div class="row">
         <div class="col-9 col-md-9">
@@ -76,23 +77,23 @@
                     <div class="row">
                       <div class="col-xs-12 col-md-8">
                         <p>
-                          somos una tienda que promueve la cultura nicaraguense, tenemos
-                          desde ropa <br />
+                          Somos una tienda que promueve la cultura nicaragüense, tenemos
+                          desde ropa <br/>
                           zapatos, sandalias y muchas artesanias increiblemente interesantes
                           todo elaborado <br />
-                          por artesanos nicaraguense.
+                          por artesanos nicaragüense.
                         </p>
                         <hr />
                         <div class="direcionTienda">
                           <img
-                            class="marcadorDeDireccion"
+                            class="marcadorDeDireccion img-fluid"
                             src="./asset/posicion.png"
                             alt=""
                           />
                           <p>Frente al parque central, Nueva Guinea</p>
                         </div>
                         <p class="horario">
-                          abierto . Cierra a las 6:30 de lunes a domingo
+                          Abierto . Cierra a las 6:30 de lunes a domingo
                         </p>
                         <div class="d-flex justify-content-center">
                           <button class="btn btn-primary">
@@ -103,8 +104,8 @@
                       <div class="col-3 col-md-3">
                         <h4>Lo mas vendido</h4>
                         <div class="imgLoMasVendido">
-                          <img class="img-producto" src="./assets/vestido.png" alt="" />
-                          <img class="img-producto" src="./assets/carteraRosada.jpg" alt="" />
+                          <img class="img-producto img-fluid" src="./assets/vestido.png" alt="mas vendido" />
+                          <img class="img-producto img-fluid" src="./assets/carteraRosada.jpg" alt="mas vendido" />
                         </div>
                       </div>
                     </div>
@@ -125,11 +126,11 @@
                     <div class="row">
                       <div class="col-xs-12 col-md-8">
                         <p>
-                          somos una tienda que promueve la cultura nicaraguense, tenemos
+                          Somos una tienda que promueve la cultura nicaragüense, tenemos
                           desde ropa <br />
                           zapatos, sandalias y muchas artesanias increiblemente interesantes
                           todo elaborado <br />
-                          por artesanos nicaraguense.
+                          por artesanos nicaragüense.
                         </p>
                         <hr />
                         <div class="direcionTienda">
@@ -141,7 +142,7 @@
                           <p>Frente al parque central, Nueva Guinea</p>
                         </div>
                         <p class="horario">
-                          abierto . Cierra a las 6:30 de lunes a domingo
+                          Abierto . Cierra a las 6:30 de lunes a domingo
                         </p>
                         <div class="d-flex justify-content-center">
                           <button class="btn btn-primary">
@@ -164,10 +165,10 @@
           </div>
         </div>
         <div class="col-3 col-md-3">
-          <h3 class="d-flex justify-content-center">publicidad</h3>
-            <img class="img-publicidad " src="./asset/publicidad1.jpg" alt="" />
-            <img class="img-publicidad " src="./asset/publicidad2.png" alt="" />
-            <img class="img-publicidad " src="./asset/publicidad3.png" alt="" />
+          <h3 class="d-flex justify-content-center">Publicidad</h3>
+            <img class="img-publicidad img-fluid" src="./asset/publicidad1.jpg" alt="" />
+            <img class="img-publicidad img-fluid" src="./asset/publicidad2.png" alt="" />
+            <img class="img-publicidad img-fluid" src="./asset/publicidad3.png" alt="" />
         </div>
       </div>
     </div>

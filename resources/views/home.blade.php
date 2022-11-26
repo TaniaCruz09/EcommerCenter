@@ -21,9 +21,6 @@
             <a class="btn btn-first" href="{{route('login')}}" style="margin: 30px 10px; width:150px; padding:10px; border-radius:10px; background-color: darkblue; color:#fff; text-decoration:none">Acceder</a>
             <a class="btn btn-second" href="{{route('crearTienda')}}" style="margin: 30px 10px; width:150px; padding:10px; border-radius:10px; background-color: darkorange; color:#fff; text-decoration:none">Crear Tienda</a>
         </div>
-        {{-- <div class="col-xs-3 col-md-3">
-            <img src="./asset/imagen.png">
-        </div> --}}
     </div>
     </div>
     <div class="container">

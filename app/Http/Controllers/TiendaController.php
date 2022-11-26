@@ -16,7 +16,7 @@ class TiendaController extends Controller
      */
     public function index()
     {
-        //
+        return view('Tienda/index');
     }
  
 
@@ -52,7 +52,7 @@ class TiendaController extends Controller
      * @param  \App\Models\Tienda  $tienda
      * @return \Illuminate\Http\Response
      */
-    public function show(Tienda $tienda)
+    public function show()
     {
         return view('Tienda/index');
     }

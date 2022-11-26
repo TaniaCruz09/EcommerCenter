@@ -16,7 +16,6 @@ class TiendaController extends Controller
      */
     public function index()
     {
-        return view('Tienda/index');
     }
  
 

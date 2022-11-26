@@ -21,7 +21,7 @@ return new class extends Migration
             $table->integer('categoria_tiendas_id')->foreign('categoria_tiendas_id')
             ->references('id')->on('categoria_tiendas')
             ->onDelete('set null');
-            $table->string('email');
+            $table->string('email');    
             $table->string('descripcion');
             $table->string('numero');
             $table->time('hora_apertura');
